@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables (never commit secrets)
+.env
+*/.env
+
+# Build output
+dist/
+*/dist/
+
+# Backend runtime data (optional — remove this line if you want to commit sample data)
+backend/data/db.json
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
